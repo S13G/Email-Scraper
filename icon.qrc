@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>gmail-icon-1.svg</file>
+    <file>official-gmail-icon-2020-(1).svg</file>
+    <file>arrow-down.svg</file>
+    <file>arrow-up.svg</file>
+    <file>arrow-down-left.svg</file>
+    <file>maximize-2.svg</file>
+    <file>minimize-2.svg</file>
+    <file>x.svg</file>
+  </qresource>
+</RCC>
