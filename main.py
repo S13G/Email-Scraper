@@ -3,7 +3,6 @@ import re
 import requests
 import threading
 import pandas as pd
-import time
 
 from urllib.parse import urlsplit
 from collections import deque
@@ -54,7 +53,7 @@ class MainWindow(QMainWindow):
         self.ui.maximize.clicked.connect(lambda: self.restore_or_maximize_window())
 
         # Start the extracting
-        self.ui.start_button.clicked.connect(lambda: self.timer())
+        self.ui.start_button.clicked.connect(lambda: self.scraping())
 
         # exportig to csv file
         self.ui.pushButton_4.clicked.connect(lambda: self.csv_file())
